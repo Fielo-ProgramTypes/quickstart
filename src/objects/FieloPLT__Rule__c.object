@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>RebateConversionMode__c</fullName>
+        <description>Rebate Conversion Mode</description>
+        <externalId>false</externalId>
+        <label>Rebate Conversion Mode</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Fixed Value</fullName>
+                    <default>false</default>
+                    <label>Fixed Value</label>
+                </value>
+                <value>
+                    <fullName>Factor</fullName>
+                    <default>false</default>
+                    <label>Factor</label>
+                </value>
+                <value>
+                    <fullName>Multiplier</fullName>
+                    <default>false</default>
+                    <label>Multiplier</label>
+                </value>
+                <value>
+                    <fullName>Percentage</fullName>
+                    <default>false</default>
+                    <label>Percentage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RebateConversionValue__c</fullName>
+        <description>Rebate Conversion Value</description>
+        <externalId>false</externalId>
+        <label>Rebate Conversion Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>RebateFieldName__c</fullName>
+        <description>Rebate Field Name</description>
+        <externalId>false</externalId>
+        <label>Rebate Field Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>
