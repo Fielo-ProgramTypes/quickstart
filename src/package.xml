@@ -6,6 +6,7 @@
   </types>
   <types>
     <name>EmailTemplate</name>
+    <members>Quickstart</members>
     <members>Quickstart/AcceptAgreement</members>
     <members>Quickstart/Rebate_Won</members>
   </types>
